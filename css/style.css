@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ContenedorBody {
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #001683;
+}
+
+.nav_container {
+  height: 10vh;
+}
+
+.nav_logo {
+  height: 100%;
+}
+
+.img_logo {
+  height: 100%;
+}
+
+.algo {
+  height: 600px;
+  width: 100%;
+  background-image: url("/nono/camera-2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.algo .algo_titulo {
+  height: 265px;
+  width: 255px;
+  -webkit-animation-name: slideinRight;
+          animation-name: slideinRight;
+  position: relative;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.algo .algo_titulo img {
+  height: 150px;
+  width: 150px;
+}
+
+.algo .algo_slogan {
+  -webkit-animation-name: slideinLeft;
+          animation-name: slideinLeft;
+  position: relative;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes slideinRight {
+  from {
+    left: -70%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes slideinRight {
+  from {
+    left: -70%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes slideinLeft {
+  from {
+    right: -70%;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes slideinLeft {
+  from {
+    right: -70%;
+  }
+  to {
+    right: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
