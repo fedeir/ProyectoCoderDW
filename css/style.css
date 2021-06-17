@@ -13,16 +13,9 @@
   background-color: #001683;
 }
 
-.nav_container {
-  height: 10vh;
-}
-
-.nav_logo {
-  height: 100%;
-}
-
 .img_logo {
-  height: 100%;
+  width: 40px;
+  height: 40px;
 }
 
 .algo {
@@ -40,8 +33,8 @@
   -webkit-animation-name: slideinRight;
           animation-name: slideinRight;
   position: relative;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
 }
 
 .algo .algo_titulo img {
@@ -53,8 +46,8 @@
   -webkit-animation-name: slideinLeft;
           animation-name: slideinLeft;
   position: relative;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
 }
 
 @-webkit-keyframes slideinRight {
