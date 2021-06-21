@@ -4,6 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
+  list-style: none;
+  text-decoration: none;
 }
 
 .ContenedorBody {
@@ -94,6 +96,11 @@
 
 .servicios div div {
   padding-top: 5px;
-  border: solid 1px black;
+}
+
+.servicios div div:hover {
+  background-color: #3172c7;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 /*# sourceMappingURL=style.css.map */
