@@ -103,4 +103,21 @@
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
+
+.nosotros {
+  background-image: radial-gradient(circle at 52.23% 51.87%, #8b41ff 0, #2121f4 35%, #01023A 100%);
+  min-height: 630px;
+}
+
+.contacto {
+  min-height: 630px;
+}
+
+.contacto .contenedorForm h2, .contacto .contenedorForm label {
+  color: black;
+}
+
+.contacto .map h2 {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
