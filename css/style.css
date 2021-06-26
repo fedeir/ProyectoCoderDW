@@ -22,7 +22,7 @@
   height: 40px;
 }
 
-.algo {
+.principal {
   height: 600px;
   width: 100%;
   background-image: url("../assets/img/zoom.jpg");
@@ -31,7 +31,7 @@
   color: white;
 }
 
-.algo .algo_titulo {
+.principal .principal_titulo {
   height: 265px;
   width: 255px;
   -webkit-animation-name: slideinRight;
@@ -41,12 +41,12 @@
           animation-duration: 2.5s;
 }
 
-.algo .algo_titulo img {
+.principal .principal_titulo img {
   height: 150px;
   width: 150px;
 }
 
-.algo .algo_slogan {
+.principal .principal_slogan {
   -webkit-animation-name: slideinLeft;
           animation-name: slideinLeft;
   position: relative;
@@ -120,5 +120,14 @@
 
 .contacto .map h2 {
   color: black;
+}
+
+.hero_cctv {
+  height: 400px;
+  width: 100%;
+  background-image: url("../assets/img/vigilancia.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

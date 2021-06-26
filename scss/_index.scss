@@ -1,5 +1,5 @@
 .header{
-    // background-color: rgb(0,22,131);
+    
     background-color:rgb(20,20,169);
     
     
@@ -13,7 +13,7 @@
 
 
 
-.algo{
+.principal{
     height: 600px;
     width: 100%;
     background-image: url("../assets/img/zoom.jpg");
@@ -21,15 +21,11 @@
     background-position: center;
     color: white;
     
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: center;
-    // align-items: center;
+    
 
-    .algo_titulo{
+    .principal_titulo{
         height: 265px;
         width: 255px;
-        // background-color: rgba(16, 16, 231, .7);
         animation-name: slideinRight;
         position:relative;
         animation-duration: 2.5s;
@@ -38,7 +34,7 @@
             width:150px;
         }
     }
-    .algo_slogan{
+    .principal_slogan{
         animation-name: slideinLeft;
         position:relative;
         animation-duration: 2.5s;
