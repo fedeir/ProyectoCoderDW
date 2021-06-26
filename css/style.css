@@ -6,6 +6,7 @@
   color: white;
   list-style: none;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 .ContenedorBody {
@@ -13,7 +14,7 @@
 }
 
 .header {
-  background-color: #001683;
+  background-color: #1414a9;
 }
 
 .img_logo {
