@@ -13,6 +13,14 @@
   min-height: 100vh;
 }
 
+.servicios_tarjeta h2 {
+  color: blue;
+}
+
+.servicios_tarjeta p {
+  color: black;
+}
+
 .header {
   background-color: #1414a9;
 }
@@ -126,6 +134,33 @@
   height: 400px;
   width: 100%;
   background-image: url("../assets/img/vigilancia.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero_cda {
+  height: 350px;
+  width: 100%;
+  background-image: url("../assets/img/CDA.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero_incendio {
+  height: 550px;
+  width: 100%;
+  background-image: url("../assets/img/FireCartel.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero_alarma {
+  height: 550px;
+  width: 100%;
+  background-image: url("../assets/img/activated.jpg");
   background-size: cover;
   background-position: center;
   color: white;
